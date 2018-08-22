@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    text-align: center;
+    font-size: 2rem;
+    color: #FCD77F;
+}
+
+#grid-container {
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    min-height: 50%;
+    width: 75vh;
+    min-width: 300px;
+    background-color: #2E99B0;
+    /*border: 6vw solid #2E99B0;*/
+    border-radius: 50px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#grid {
+    display: grid;
+    /*position: absolute;*/
+    background-color: #FCD77F;
+    grid-template-columns: repeat(16, 3.5vh);
+    grid-template-rows: repeat(16, 3.5vh);
+  /*  grid-template-columns: repeat(16, 2rem);
+    grid-template-rows: repeat(16, 2rem);*/
+    /*top: 5vw;
+    left: 5vw;*/
+    align-self: center;
+
+}
+
+#grid > div {
+    background-color: #FF2E4C;
+    border: 1px solid #FCD77F;
+    height: 0;
+    padding-bottom: 100%;
+}
+
+
+#header2 {
+    /*position: absolute;*/
+    display: flex;
+    bottom: 1rem;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.btn,
+.erase {
+    height: 2vw;
+    min-height: 40px;
+    width: 10vw;
+    min-width: 100px;
+
+}
+
+
