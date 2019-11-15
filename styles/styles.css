@@ -32,7 +32,7 @@ body {
     grid-template-columns: repeat(16, 3.5vh);
     grid-template-rows: repeat(16, 3.5vh);
     align-self: center;
-    border: 4vw solid black;
+    border: 4vw solid #2E99B0;
     border-radius: 50px;
 }
 
