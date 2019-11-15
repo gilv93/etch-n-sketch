@@ -1,2 +1,2 @@
 # etch-n-sketch
-Etch-a-Sketch project as dictated by The Odin Project
+A website I created while learning web development through The Odin Project!
