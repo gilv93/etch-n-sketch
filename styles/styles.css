@@ -13,6 +13,7 @@ body {
     text-align: center;
     font-size: 2rem;
     color: #FCD77F;
+    position: absolute;
 }
 
 #grid-container {
@@ -34,6 +35,7 @@ body {
     align-self: center;
     border: 4vw solid #2E99B0;
     border-radius: 50px;
+    position: relative;
 }
 
 #grid > div {
@@ -49,6 +51,7 @@ body {
     bottom: 1rem;
     justify-content: space-evenly;
     width: 100%;
+    position: absolute;
 }
 .btn,
 .erase {
