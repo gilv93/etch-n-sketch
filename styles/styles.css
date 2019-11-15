@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     height: 75vh;
     min-height: 50%;
-    width: 75vh;
+    width: 35vw;
     min-width: 300px;
     background-color: #2E99B0;
     border-radius: 50px;
@@ -36,13 +36,6 @@ body {
     grid-template-columns: repeat(16, 3.5vh);
     grid-template-rows: repeat(16, 3.5vh);
     align-self: center;
-}
-
-@media only screen and (max-width: 600px) {
-    #grid {
-        grid-template-columns: repeat(16, 1vh);
-        grid-template rows: repeat(16, 1vh);
-    }
 }
 
 #grid > div {
@@ -68,5 +61,3 @@ body {
     min-width: 100px;
 
 }
-
-
