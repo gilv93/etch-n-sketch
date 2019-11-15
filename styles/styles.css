@@ -16,26 +16,24 @@ body {
 }
 
 #grid-container {
-    /*position: relative;*/
     display: flex;
     flex-direction: column;
     height: 75vh;
     min-height: 50%;
     width: 35vw;
     min-width: 300px;
-    background-color: #2E99B0;
-    border-radius: 50px;
     justify-content: space-evenly;
     margin: auto;
 }
 
 #grid {
     display: grid;
-    /*position: absolute;*/
     background-color: #FCD77F;
     grid-template-columns: repeat(16, 3.5vh);
     grid-template-rows: repeat(16, 3.5vh);
     align-self: center;
+    border: 4vw solid black;
+    border-radius: 50px;
 }
 
 #grid > div {
