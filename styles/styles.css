@@ -24,7 +24,6 @@ body {
     width: 75vh;
     min-width: 300px;
     background-color: #2E99B0;
-    /*border: 6vw solid #2E99B0;*/
     border-radius: 50px;
     justify-content: space-evenly;
     margin: auto;
@@ -36,12 +35,14 @@ body {
     background-color: #FCD77F;
     grid-template-columns: repeat(16, 3.5vh);
     grid-template-rows: repeat(16, 3.5vh);
-  /*  grid-template-columns: repeat(16, 2rem);
-    grid-template-rows: repeat(16, 2rem);*/
-    /*top: 5vw;
-    left: 5vw;*/
     align-self: center;
+}
 
+@media only screen and (max-width: 600px) {
+    #grid {
+        grid-template-columns: repeat(16, 1vh);
+        grid-template rows: repeat(16, 1vh);
+    }
 }
 
 #grid > div {
