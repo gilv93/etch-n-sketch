@@ -63,5 +63,7 @@ body {
 @media only screen and (max-width: 650px) {
     #grid {
         border-width: 8vw;
+        grid-template-columns: repeat(16, 2.5vh);
+        grid-template-rows: repeat(16, 2.5vh);
     }
 }
