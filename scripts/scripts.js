@@ -26,7 +26,6 @@ function newSize() {
             grid.removeChild(child);
         }
         grid.style.cssText = `grid-template-columns: repeat(${size}, ${56/size}vh); grid-template-rows: repeat(${size}, ${56/size}vh)`
-        /*grid.style.cssText = `grid-template-columns: repeat(${size}, ${32/size}rem); grid-template-rows: repeat(${size}, ${32/size}rem)`*/
         gridSize = size * size
         createGrid();
     }
